@@ -1,0 +1,52 @@
+1>:python 的进制转换
+
+   1>> : 基本类型
+    int ： 整数
+    float :浮点
+    complex : 复数
+    注意 ：：1/2=0.5  3//2 = 1
+    0b10 =====》二进制
+    0o10 =====》八进制
+    0x10 =====> 十六进制
+
+   相关方法
+   1：bin(num) ===> 把数字转换成为二进制的
+   2：int(num) ===> 把数字转换成为十进制的
+   3：oct(num) ===> 把数字转换成为八进制的
+   4：hex(num) ===> 把数字转换成为十六进制的
+
+  2>> ： Python的boolean 类型
+      True & False
+      注意：： 需要首字母大写；Boolean类型 归属于数字类型的子类
+      bool(1)  ===> True
+      bool(0)  ===> False
+      bool(-1) ===> True
+      bool('abc') ===> True
+      bool("") ===> False
+      bool([1,2,3]) ===> True
+      bool([]) ===> False
+      bool({1,2,3}) ===> True
+      bool({}) ===> False
+      bool(None) ===> False
+
+  3>> : 复数
+       36j
+
+
+2> ： python 的字符串 str
+    1>> 在Python中可以使用 单引号 双引号 三引号 来区别
+        遇到特殊情况可以使用转义字符来转义单引号或者双引号，
+        三引号：特殊用法
+        反斜杠： \n 回车
+
+
+
+
+
+
+
+
+
+
+
+
