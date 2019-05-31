@@ -35,4 +35,3 @@ def median(numbers):
 n = getNum()
 m = mean(n)
 print("平均值：{} ,f方差：{:.2f} ,中位数 ：{}.".format(m,dev(n,m),median(n)))
-
